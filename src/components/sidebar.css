@@ -27,7 +27,7 @@
     font-size: 40px;
 }
 .sidebar-menu{
-    margin-top: 10px;   
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -37,7 +37,7 @@
    
 }
 .sidebar-bottom-menu{
-    margin-top: 15%;
+    margin-top: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
