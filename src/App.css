@@ -1,0 +1,129 @@
+.page-container {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+.sidebar-container {
+  display: flex;
+  width: 25%;
+  padding: 10px;
+}
+
+.analytics-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 75%;
+  padding: 10px 30px 0px 0px;
+
+}
+
+.analytics-page-header {
+  display: flex;
+  height: 10%;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 10px 0px 40px;
+}
+
+.header-icon-container {
+  margin-left: auto;
+  display: flex;
+  gap: 10px;
+}
+
+.header-icon-btn {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.25);
+}
+
+.profile-image-btn {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile-image {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+
+}
+
+.analytics-page-button-container {
+  display: flex;
+  justify-content: space-between;
+  height: 5%;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.plus-sign {
+  font-size: 30px;
+  padding-right: 10px;
+}
+
+.analytics-page-button {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 40px 10px 40px;
+  font-size: 15px;
+  outline: 0;
+  border-radius: 100px;
+  color: #6C6F6B;
+  background-color: transparent;
+  border: 1px solid #6C6F6B;
+  font-weight:
+    500;
+    flex-wrap: nowrap;
+}
+
+.analytics-page-small-cards-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20%;
+  width: 100%;
+  /* padding: 10px 0px 10px 0px; */
+  /* background-color: yellow; */
+}
+
+.analytics-page-medium-cards-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 25%;
+  width: 100%;
+  /* background-color: green; */
+}
+
+.pageviews-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  height: 40%;
+  width: 100%;
+  /* background-color: orange; */
+}
+
+@media only screen and (max-width: 768px) {
+
+}

@@ -1,0 +1,65 @@
+.small-card{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 4.13px 0px #6D6D6D80;
+    border-radius: 10px;
+    height: 100%;
+    width: 22.5%;
+    
+    background-size: cover;
+ 
+    padding: 15px 20px 15px 20px;
+}
+.small-card:nth-child(1){
+    color: white;
+    background-color: #539BBB;
+    background-image: url("../assets/Path1.svg");
+}
+.small-card:nth-child(2){
+    color: white;
+    background-color: 
+    #14827B;
+    background-image: url("../assets/Path2.svg");
+}
+.small-card:nth-child(3){
+    color: 
+    #262D33;
+    background-color: 
+    #FFFFFF;
+    background-image: url("../assets/Path3.svg");
+}
+.small-card:nth-child(4){
+    color: white;
+    background-color: 
+    #FF4F52;
+    background-image: url("../assets/Path4.svg");
+}
+.small-card-title{
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.small-card-subtitle{
+    font-size: 11px;
+    padding-bottom: 5px;
+}
+.small-card-value{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.small-card-caret{
+    font-size: 12.5px;
+}
+.small-card-change{
+    font-size: 13px;
+    padding-bottom: 5px;
+}
+
+.small-card-price{
+    margin-top: auto;
+    font-size: 11px;
+    /* padding-bottom: 10px; */
+}

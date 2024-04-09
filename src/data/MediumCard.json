@@ -1,0 +1,52 @@
+[
+  {
+    "title": "On Time",
+    "color" : "#26D75A",
+    "data": [
+      {
+        "key": "Completed Iterations",
+        "value": 7
+      },
+      {
+        "key": "Total Iterations",
+        "value": 9
+      },
+      {
+        "key": "% Iterations Done",
+        "value": "77.8%"
+      }
+    ]
+  },
+  {
+    "title": "On Scope",
+    "color" : "#26D75A",
+    "data": [
+      {
+        "key": "Story Points Done",
+        "value": 3200
+      },
+      {
+        "key": "TotalStory Points",
+        "value": 4230
+      },
+      {
+        "key": "% Stories Done",
+        "value": "70.9%"
+      }
+    ]
+  }, {
+    "title": "On Velocity",
+    "color" : "#FF6E66",
+    "data": [
+      {
+        "key": "Average Velocity",
+        "value": 428.6
+      },
+      {
+        "key": "Required Velocity",
+        "value": 615.0
+      }
+ 
+    ]
+  }
+]
