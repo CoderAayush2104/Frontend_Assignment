@@ -81,7 +81,6 @@ background-color: transparent;
     border: 1px solid #D9DADB;
     border-radius: 5px;
     cursor: pointer;
-
     text-align: left;
 }
 .select-dropdown__button:focus{
