@@ -1,7 +1,10 @@
 .page-container {
-  position: relative;
+
   display: flex;
   width: 100%;
+  position: absolute;
+  top : 0;
+  bottom: 0;
   height: 100vh;
 }
 
